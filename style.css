@@ -277,6 +277,9 @@ p, h1, h2, h3 {
   transition: 1s;
 }
 
+.footer_email ul li {
+  list-style: none;
+}
 .footer_email:hover {
   width: 80%;
   background: chartreuse;
