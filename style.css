@@ -254,40 +254,19 @@ p, h1, h2, h3 {
 /*           Footer contact    */
 
 .footer_email {
-  width: 50%;
-  height: 300px;
-  float: left;
+  position: relative;
+  display: flex;
+  width: 100%;
+  background: chocolate;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
 }
 
-.footer_telefon {
-  width: 50%;
-  height: 300px;
-  float: left;
-}
-
-#footer_contact_email_p {
-   width: 350px;
-   height: 300px;
-   line-height: 300px;
-   border-radius: 50%;
-   font-size: 20px;
-   color: black;
-   text-align: center;
-   background: #81D4FC;
-   font-weight: bold;
-}
-
-#footer_contact_telefon_p {
-  width: 350px;
-  height: 300px;
-  line-height: 300px;
-   border-radius: 50%;
-   font-size: 23px;
-   color: black;
-   text-align: center;
-   background: #81D4FC;
-   font-weight: bold;
-   margin-left: 50px;
+.footer_email:hover {
+  width: 80%;
+  background: chartreuse;
 }
 
 /*                  Experienta LMB - Limbaje       */
